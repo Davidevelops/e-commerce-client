@@ -1,4 +1,3 @@
-import { Types } from "mongoose";
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
 import type { ShippingAddress } from "./cartStore";
@@ -20,7 +19,7 @@ export type User = {
 };
 
 export type OrderProduct = {
-  product: Types.ObjectId;
+  product: string;
   name: string;
   price: number;
   quantity: number;
@@ -29,7 +28,7 @@ export type OrderProduct = {
 
 export type Order = {
   _id: string;
-  user: Types.ObjectId;
+  user: string;
   products: OrderProduct[];
   totalAmount: number;
   paymentStatus: "pending" | "completed" | "failed";
