@@ -24,7 +24,7 @@ type ProductState = {
   getPopularProducts: () => void;
 };
 
-const API_URL = "https://e-commerce-server-rnas.onrender.com/";
+const API_URL = "https://e-commerce-server-rnas.onrender.com";
 
 export const useProductStore = create<ProductState>((set) => ({
   products: null,

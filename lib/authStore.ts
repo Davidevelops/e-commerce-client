@@ -57,7 +57,7 @@ export type Auth = {
   getUserOrders: () => void;
 };
 
-const API_URL = "https://e-commerce-server-rnas.onrender.com/";
+const API_URL = "https://e-commerce-server-rnas.onrender.com";
 
 axios.defaults.withCredentials = true;
 

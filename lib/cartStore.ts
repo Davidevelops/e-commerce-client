@@ -31,7 +31,7 @@ type CartState = {
   ) => void;
 };
 
-const API_URL = "https://e-commerce-server-rnas.onrender.com/";
+const API_URL = "https://e-commerce-server-rnas.onrender.com";
 
 export const useCartStore = create<CartState>()(
   persist(
