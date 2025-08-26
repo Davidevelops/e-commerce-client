@@ -91,9 +91,7 @@ export const useCartStore = create<CartState>()(
             orderStatus: "processing",
           };
 
-          await axios.post(`${API_URL}/create-order`, orderPayload, {
-            withCredentials: true,
-          });
+          await axios.post(`${API_URL}/create-order`, orderPayload, {});
         } catch (error: any) {
           set({
             cartError: error.response.data.message || "Your cart is empty",
