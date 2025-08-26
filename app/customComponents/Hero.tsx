@@ -4,14 +4,14 @@ export default function Hero() {
   return (
     <div className="overflow-hidden">
       <div className="hero-container bg-[url('/assets/hero.jpeg')] bg-cover bg-center bg-no-repeat w-screen h-[80vh] p-4">
-        <div className="heading-container  h-full flex flex-col items-start justify-center ml-10 md:ml-50">
+        <div className="heading-container  h-full flex flex-col items-start justify-center ml-8 md:ml-50">
           <h1 className="text-white text-2xl md:text-6xl w-[700px]">
             Style Meets Comfort
           </h1>
           <h1 className="text-white text-2xl md:text-6xl w-[700px]">
             with Anyo Furniture
           </h1>
-          <p className="text-white text-[14px] md:text-lg w-[350px] mt-3">
+          <p className="text-white text-[14px] md:text-lg w-[300px] md:w-[350px] mt-3">
             Create a home that reflects your taste — cozy, elegant, and uniquely
             you.
           </p>
