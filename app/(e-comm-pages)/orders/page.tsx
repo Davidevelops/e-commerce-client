@@ -36,7 +36,6 @@ export default function Page() {
 
   if (isLoading)
     return <p className="text-center text-2xl">Loading orders...</p>;
-  if (error) return <p className="text-red-500">{String(error)}</p>;
   if (!orders || orders.length === 0)
     return <p className="text-center text-2xl">No orders found.</p>;
 
