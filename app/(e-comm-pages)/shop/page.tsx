@@ -27,8 +27,10 @@ export default function page() {
   return (
     <div>
       <div className="banner bg-blue-100 p-26 mb-10">
-        <h1 className="text-center text-5xl">Explore our collections</h1>
-        <p className="text-center text-lg mt-3">
+        <h1 className="text-center text-3xl md:text-5xl">
+          Explore our collections
+        </h1>
+        <p className="text-center text-[12px] md:text-lg mt-3">
           Discover stylish, high-quality furniture at prices that fit your
           budget. Browse our newest arrivals and find the perfect pieces to
           elevate your space.

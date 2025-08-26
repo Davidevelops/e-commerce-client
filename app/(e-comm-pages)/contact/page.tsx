@@ -12,7 +12,7 @@ export default function page() {
   return (
     <div>
       <div className="banner p-30 bg-blue-100">
-        <h1 className="text-center text-5xl">Connect With Us</h1>
+        <h1 className="text-center text-3xl md:text-5xl">Connect With Us</h1>
       </div>
       <div className="form-container flex items-center justify-center  max-w-[1500px] mx-auto my-28s gap-22 flex-wrap">
         <div className="get-in-touchh mt-8">

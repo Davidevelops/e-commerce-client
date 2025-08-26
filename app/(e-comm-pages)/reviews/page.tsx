@@ -30,7 +30,7 @@ export default function Page() {
   return (
     <div>
       <div className="banner bg-blue-100 p-30">
-        <h1 className="text-center text-5xl">Customer Reviews</h1>
+        <h1 className="text-center text-3xl md:text-5xl">Customer Reviews</h1>
       </div>
       <div className="review max-w-[1500px] mx-auto my-20">
         {reviews.map((review, index) => (
@@ -47,7 +47,7 @@ export default function Page() {
               />
             </div>
             <div className="details text-wrap wrap-break-word">
-              <h1 className="text-3xl w-[400px] md:w-3xl p-2">
+              <h1 className="text-xl w-[300px] md:text-3xl md:w-3xl p-2">
                 <i>{review.testimony}</i>
               </h1>
               <p className="text-2xl text-gray-600 mt-6">{review.name}</p>

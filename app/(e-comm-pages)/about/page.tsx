@@ -20,7 +20,7 @@ export default function page() {
   return (
     <div>
       <div className="banner bg-blue-100 p-30">
-        <h1 className="text-5xl text-center">About Us</h1>
+        <h1 className="text-3xl md:text-5xl text-center">About Us</h1>
       </div>
       <div className="vm max-w-[1500px] mx-auto">
         <div className="mission my-40 flex items-center justify-center gap-16 flex-wrap">
@@ -37,7 +37,7 @@ export default function page() {
               </p>
               <h1 className=" text-3xl md:text-5xl my-3">Our Core Beliefs</h1>
             </span>
-            <p className="text-wrap w-[400px] sm:w-[500px]">
+            <p className="text-wrap w-[300px] sm:w-[500px]">
               At Anyo, our mission is to create timeless furniture that blends
               comfort, craftsmanship, and character. We believe every piece
               should tell a story—crafted with care, inspired by culture, and
@@ -59,7 +59,7 @@ export default function page() {
               </p>
               <h1 className=" text-3xl md:text-5xl my-3">Long-term goal</h1>
             </span>
-            <p className="text-wrap w-[400px] sm:w-[500px]">
+            <p className="text-wrap w-[300px] sm:w-[500px]">
               Our vision is to become a leading name in timeless, sustainable
               furniture—recognized for designs that honor heritage while
               embracing modern living. We aim to inspire homes around the world
