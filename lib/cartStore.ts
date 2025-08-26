@@ -32,7 +32,7 @@ type CartState = {
 };
 
 const API_URL = "https://e-commerce-server-rnas.onrender.com";
-
+axios.defaults.withCredentials = true;
 export const useCartStore = create<CartState>()(
   persist(
     (set, get) => ({

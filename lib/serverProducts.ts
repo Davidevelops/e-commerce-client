@@ -2,6 +2,8 @@ import axios from "axios";
 
 const API_URL = "https://e-commerce-server-rnas.onrender.com";
 
+axios.defaults.withCredentials = true;
+
 export async function getAllProducts() {
   const res = await axios.get(`${API_URL}/get-all-products`);
   return res.data.Products;

@@ -26,6 +26,8 @@ type ProductState = {
 
 const API_URL = "https://e-commerce-server-rnas.onrender.com";
 
+axios.defaults.withCredentials = true;
+
 export const useProductStore = create<ProductState>((set) => ({
   products: null,
   popularProducts: null,
