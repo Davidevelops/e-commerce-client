@@ -24,10 +24,10 @@ export default function ProductDetails({ product }: { product: Product }) {
     <div>
       <div className="banner bg-blue-100 p-30">
         {" "}
-        <h1 className="text-center text-5xl">{product.name}</h1>
+        <h1 className="text-center text-3xl md:text-5xl">{product.name}</h1>
       </div>
       <div className="product-container flex items-center justify-center flex-wrap max-w-[1500px]  mx-auto gap-10 my-30">
-        <div className="product-image relative w-[500px] h-[500px]">
+        <div className="product-image relative w-[300px] h-[400px] md:w-[500px] md:h-[500px]">
           <Image
             src={product.imageUrl![0]}
             alt="product"
@@ -36,8 +36,8 @@ export default function ProductDetails({ product }: { product: Product }) {
           />
         </div>
         <div className="product-details">
-          <h1 className="text-5xl">{product.name}</h1>
-          <p className="text-sm mt-3 ms-2  max-w-[400px] line-clamp-4 leading-6 text-gray-700">
+          <h1 className="text-3xl md:text-5xl">{product.name}</h1>
+          <p className="text-sm mt-3 max-w-[400px] line-clamp-4 leading-6 text-gray-700">
             {product.description}
           </p>
           <h1 className="ms-2 mt-10 text-2xl">

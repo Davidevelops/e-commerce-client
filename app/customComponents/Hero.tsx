@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <div className="overflow-hidden">
       <div className="hero-container bg-[url('/assets/hero.jpeg')] bg-cover bg-center bg-no-repeat w-screen h-[80vh] p-4">
-        <div className="heading-container  h-full flex flex-col items-start justify-center md:ml-50">
+        <div className="heading-container  h-full flex flex-col items-start justify-center ml-10 md:ml-50">
           <h1 className="text-white text-2xl md:text-6xl w-[700px]">
             Style Meets Comfort
           </h1>
